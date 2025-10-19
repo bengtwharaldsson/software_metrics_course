@@ -1,0 +1,8 @@
+metric,value,unit
+average_lead_time,55.75409836065574,days
+median_lead_time,4.0,days
+p75_lead_time,61.0,days
+p90_lead_time,198.0,days
+p95_lead_time,255.0,days
+fast_pr_rate,50.81967213114754,percent
+slow_pr_rate,36.0655737704918,percent

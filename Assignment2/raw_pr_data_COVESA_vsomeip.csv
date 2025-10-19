@@ -1,0 +1,845 @@
+pr_number,title,state,created_at,updated_at,closed_at,merged_at,author_login,author_id,merge_commit_sha,changed_files,additions,deletions,comments,review_comments,commits,body,labels,assignees,milestone,head_ref,base_ref,mergeable,mergeable_state,draft
+956,vSomeIP 3.5.8 Release,closed,2025-09-16T13:05:28Z,2025-10-13T08:39:45Z,2025-10-13T08:39:45Z,2025-10-13T08:39:45Z,vvcarvalho-csw,189140349,e89240c7d5d506505326987b6a2f848658230641,,,,,,,"Commit [211cc6a](https://github.com/COVESA/vsomeip/pull/956/commits/211cc6aba88b3bacf3a4430c7178b7d6e8e78b38) should address these topics:
+
+- https://github.com/COVESA/vsomeip/issues/658
+- https://github.com/COVESA/vsomeip/issues/652
+- https://github.com/COVESA/vsomeip/issues/630",,,,master,master,,,False
+955,3.5.8 commits,closed,2025-09-15T10:50:03Z,2025-09-15T10:52:18Z,2025-09-15T10:52:18Z,2025-09-15T10:52:18Z,duartenfonseca,42354362,687ef6a6081cf295b92e996ee4e75a48256f92cb,,,,,,,,,,,3.5.8_commits,master,,,False
+946,Cycle event fix test2,closed,2025-08-19T14:22:59Z,2025-08-19T14:23:29Z,2025-08-19T14:23:25Z,,duartenfonseca,42354362,9b5961822e1dd36a62bc5d5ebd51ae247fdef215,,,,,,,,,,,cycle_event_fix_test2,master,,,True
+943,vSomeip-Lib 3.5.7,closed,2025-08-18T13:35:51Z,2025-08-18T13:38:18Z,2025-08-18T13:38:17Z,2025-08-18T13:38:17Z,duartenfonseca,42354362,3bda9314830d5a76ff66b0c1debf9cd5465e82b6,,,,,,,"Changes:
+Add .git-blame-ignore-revs
+misc: format codebase
+Revert cmake refactor
+udp_server_endpoint_impl refactoring
+clear multicast only for last subscriber
+Ensure that a broken connection is forwarded to the app Fix connection drop routing to server
+fixing changes from cmakelists update
+Change order of local endpoint clean-up
+Fix increase in exported symbols
+Update security offer rule for messages
+plugin: remove load_plugins
+endpoints: fix use of bound client
+Code Quality: Address shadowing (#840)
+check routing ready on options_condition predicate Adapt new netlink test code to current boost.asio API emi: assign name to multicast worker thread
+Adapt new code to current boost.asio API
+Updates vsomeip config doc
+NetLink changes
+fix offer_stop_offer_test
+Testing local tcp communication with fault injection Rename IPV3 to IPV4
+rmi: improve logging
+Ensure client process only once the registration
+Always send initial event on subscription
+Modernize CMake code (#734)
+rmc: drop use of netlink
+set TCP_USER_TIMEOUT on boardnet connections
+Use current boost.asio API
+vsomeip examples on Windows not running
+Fix vsomeip unit-tests failing on Windows
+Adding missing flag
+lse: fix missing timeout handling
+Disconnect on error
+Set was_not_connected to true if not connected
+Client specific debouncing by name
+Add predicate to condition variables
+Ensure to unsubscribe non selective events
+Handle not_socket error on send_cbk
+Remove the exponential timer increase from connection add logs to register subscription handlers
+tse: minor logging improvement
+Ensure tracing is done after the actual action
+Add stdint import for GCC 15 (#890)
+rm: fix client registration thread names
+make client id show as hex value
+replace with remove_known_client
+allow to set any service/instance on supress missing events rms: fix SIGSEGV on application register
+misc: remove ERROR_INFO
+Add extra documentation for routing info command
+Test for registration process
+network test for availability handler
+fix test false positives
+Valgrind memcheck corrections
+Enable valgrinds and helgrind removal
+set TCP_USER_TIMEOUT on local connections
+Removes access member sec rule from received responses",,,,release_3.5.7_commit,master,,,False
+941,3.5.7 batch2,closed,2025-08-18T11:42:52Z,2025-09-05T15:52:40Z,2025-08-18T13:13:53Z,2025-08-18T13:13:53Z,duartenfonseca,42354362,e343172b156143e80828571df1102b07783c575d,,,,,,,,,,,3.5.7_batch2,master,,,False
+940,fix github actions,closed,2025-08-14T16:58:31Z,2025-08-19T15:50:34Z,2025-08-19T15:50:34Z,2025-08-19T15:50:34Z,duartenfonseca,42354362,ce692aff357fe70a0b493576010eceefe9d61a09,,,,,,,"CI windows builds were failing. 
+
+https://github.com/MarkusJx/install-boost/pull/88 
+this PR solves it.
+Changing for the commit with the change, and eventually
+ it will be updated to a new version when it is released.",,,,fix_github_actions,master,,,False
+939,3.5.7 batch1,closed,2025-08-14T16:43:59Z,2025-08-14T16:45:21Z,2025-08-14T16:45:21Z,2025-08-14T16:45:21Z,duartenfonseca,42354362,8f6f36b0103779c6f6e96966de7f917ab03b8887,,,,,,,,,,,3.5.7_batch1,master,,,False
+933,3.5.7 10cmms,closed,2025-07-25T16:25:47Z,2025-07-25T16:28:51Z,2025-07-25T16:28:51Z,2025-07-25T16:28:51Z,duartenfonseca,42354362,3d9972ea10543b4ad702a098f4ddb1d481dd2f2a,,,,,,,,,,,3.5.7_10cmms,master,,,False
+932,3.5.7 3 - commits,closed,2025-07-25T14:07:32Z,2025-07-25T14:08:38Z,2025-07-25T14:08:38Z,2025-07-25T14:08:38Z,duartenfonseca,42354362,fcef076b1567be506d79fda7381e75416f3d8490,,,,,,,,,,,3.5.7_3commits,master,,,False
+930,New prs 3.5.7 2,closed,2025-07-17T11:48:09Z,2025-07-17T13:27:20Z,2025-07-17T13:27:20Z,2025-07-17T13:27:20Z,duartenfonseca,42354362,e8b6519eb8f0035d704a1a99f5fc4532a12b8117,,,,,,,,,,,new_prs_3.5.7_2,master,,,False
+929,Adding missing flag,closed,2025-07-16T15:47:31Z,2025-07-16T15:49:01Z,2025-07-16T15:49:01Z,2025-07-16T15:49:01Z,duartenfonseca,42354362,669507bac6457b79bae6c543afab5c5cedba093c,,,,,,,this was supposed to be added with fe4e94cc,,,,add_missing_flag,master,,,False
+927,New prs 3.5.7 part2,closed,2025-07-15T16:58:21Z,2025-07-16T09:39:01Z,2025-07-16T09:39:01Z,2025-07-16T09:39:01Z,duartenfonseca,42354362,403da30a7ea30444b0480deb207b109998bc31d0,,,,,,,,,,,new_prs_3.5.7_part2,master,,,False
+926,New prs 3.5.7,closed,2025-07-15T13:23:49Z,2025-07-15T13:42:44Z,2025-07-15T13:42:44Z,2025-07-15T13:42:44Z,duartenfonseca,42354362,a864fbe146308c1b85cf808c1aed6a27abff090a,,,,,,,,,,,new_prs_3.5.7,master,,,False
+924,Rename `IPV3` to `IPV4`,closed,2025-07-08T13:08:30Z,2025-07-25T14:09:59Z,2025-07-25T14:09:59Z,2025-07-25T14:09:59Z,Alioth4J,158060792,748ce248e6273214fce034fb6d8b979f0c6251d3,,,,,,,"## Description
+This PR renames all occurrences of `IPV3` to `IPV4`.  
+
+## Changes
+- Updated macro in `implementation/service_discovery/include/defines.hpp`
+- Updated include guards in `implementation/service_discovery/include/ipv4_option_impl.hpp`
+",,,,master,master,,,False
+923,Update master,closed,2025-07-07T13:54:06Z,2025-07-07T14:17:20Z,2025-07-07T14:17:20Z,2025-07-07T14:17:19Z,duartenfonseca,42354362,ad4b6880fa6f4a9129c2980112d7a4ff8c876ff4,,,,,,,,,,,update_master,master,,,False
+915,Release 3.5.6,closed,2025-06-26T15:33:20Z,2025-06-26T15:50:53Z,2025-06-26T15:50:53Z,2025-06-26T15:50:53Z,duartenfonseca,42354362,74d1882f619ce2610a85fc3d14786080fd7187a4,,,,,,,"Changes:
+
+Ensures buffer lifetime into async handler
+Revert Execution context of subscription handlers
+Ensure ""shutdown_and_close"" is called on ""stop""
+Notify stop func when receives EOF during stop process
+Fix availability triggers on client error
+is_sending_ set to false on restart
+fix host assignment with non-local routing
+fix big_payload_test_local_tcp_queue_limited
+is_sending_ set to false when socket is not open
+reset multicast_id_
+tse - fix linger options
+Allow daemon to send ADD_CLIENT to connected clients
+Fix Bad File Descriptor on UDP server Endpoints
+Support multiple IPsec activation files per connection
+Execution context of subscription handlers
+Global request debounce time
+Stop find/offer debounce timers
+Fix NSM logs with empty Container Id strings
+Add config for wait_route_netlink_notification
+Optimize data lookups
+Remove the get_mutex_ from runtime_impl
+lock registration_state_mutex_ before sending
+Fix REMOTE_ERROR on response
+protect request_debounce_timer_running_
+Convert pending_sd_offers_ from vector to set
+Dont call shutdown_and_close if socket is connecting
+When the threshold is set to 1 in the configuration, the initial event sent for client 2 is always multicast rather than unicast. (#763)
+Small code modernizations (#835)
+Delay on event_tests Service application
+Removes remote_subscribers_ member variable
+Log the steps during suspend/resume
+Improve sd accept offer log
+Do not log when doing nothing
+start endpoint only on creation
+reset request_debounce_timer_running_
+Reset routing root on net_state_change off
+Added additional offer check
+Remove interface index in RTM_DELLINK
+Perform endpoint port assignment on vnet on
+Unspecify catch exception
+Remove pending subscriptions after on subscription call
+Update documentation and logs
+Enable global dispatch settings
+Enable configuration of client-specific debouncing
+Fix incorrect microsecond extraction in logging timestamps (#844)
+Vsomeip dissector v0.3
+Reduce npdu_tests timeout
+Network-tests: debounce tests
+Disable dlt-daemon for network-tests
+Updates cmake to build hello_world example
+Wrap options are linker flags (#780)
+test/common/CMakeLists.txt: add missing link with dlt (#602)
+force on_availability
+IO threads exit mitigation",,,,release_3.5.6,master,,,False
+914,3.5.6 new commits,closed,2025-06-17T10:30:44Z,2025-06-17T11:08:43Z,2025-06-17T11:08:43Z,2025-06-17T11:08:43Z,duartenfonseca,42354362,384f94b689d36c26d1faf8e7157c126ec2275e22,,,,,,,,,,,3.5.6_new_commits_2,master,,,False
+912,Fix all missing <cstdint> includes,closed,2025-06-16T17:20:20Z,2025-06-18T16:38:50Z,2025-06-18T16:38:49Z,,jkammerland,71674599,aefc5383ffd4fb5de6815b6b49fd4ad20ac81ca8,,,,,,,Fails to compile on newer gcc compiler versions because of this missing include,,,,fix-missing-cstdint-includes,master,,,False
+908,Use io sock,closed,2025-06-03T18:22:16Z,2025-06-03T18:22:38Z,2025-06-03T18:22:38Z,,vcomito-apexai,93660930,,,,,,,,,,,,use-io-sock,master,,,True
+903,3.5.6 new commits,closed,2025-05-22T14:49:28Z,2025-05-22T15:29:48Z,2025-05-22T15:29:48Z,2025-05-22T15:29:48Z,duartenfonseca,42354362,932a88a841771cdcab85b15a21fcaefdf0403d4c,,,,,,,,,,,3.5.6_new_commits,master,,,False
+898,New PRs for 3.5.6,closed,2025-05-12T18:04:59Z,2025-05-12T18:25:03Z,2025-05-12T18:25:03Z,2025-05-12T18:25:03Z,duartenfonseca,42354362,37175bf62a4599b4be2720281c555273906e8934,,,,,,,,,,,new_PRS_3.5.6,master,,,False
+893,3.5.6 new commits,closed,2025-04-23T16:20:06Z,2025-04-24T16:39:57Z,2025-04-24T16:39:56Z,2025-04-24T16:39:56Z,duartenfonseca,42354362,3a85e410b66203c820afadd5e4499a5fb632b82b,,,,,,,,,,,new_commits,master,,,False
+890,Add stdint import for GCC 15,closed,2025-04-17T13:15:24Z,2025-07-15T13:44:13Z,2025-07-15T13:44:13Z,2025-07-15T13:44:13Z,arctic-alpaca,67190338,88feb1df7aa7579d46c04abe89115e67e738c40f,,,,,,,"Hi,
+I'm using the newly released Fedora 42, which ships GCC 15 already, and encountered build errors. The errors are caused by GCC 15 requiring `stdint.h` to be explicitly imported ([link](https://gcc.gnu.org/gcc-15/porting_to.html#header-dep-changes)):
+```
+In particular, the following headers are used less widely within libstdc++ and may need to be included explicitly when compiling with GCC 15:
+    <stdint.h> (for int8_t, int32_t etc.) and <cstdint> (for std::int8_t, std::int32_t etc.)
+    <ostream> (for std::endl, std::flush etc.)
+```
+
+This PR adds the required imports.
+
+<details>
+  <summary>Build errors</summary>
+
+```
+In file included from /home/arctic-alpaca/git/vsomeip/interface/vsomeip/internal/plugin_manager.hpp:13,
+                 from /home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:9,
+                 from /home/arctic-alpaca/git/vsomeip/implementation/plugin/src/plugin_manager.cpp:6:
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:26:6: error: elaborated-type-specifier for a scoped enum must not use the ‘class’ keyword [-Werror]
+   26 | enum class plugin_type_e : uint8_t {
+      | ~~~~ ^~~~~
+      |      -----
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:26:26: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   26 | enum class plugin_type_e : uint8_t {
+      |                          ^
+      |                          ::
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:26:12: error: ‘plugin_type_e’ has not been declared
+   26 | enum class plugin_type_e : uint8_t {
+      |            ^~~~~~~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:26:36: error: expected unqualified-id before ‘{’ token
+   26 | enum class plugin_type_e : uint8_t {
+      |                                    ^
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:44:13: error: ‘uint32_t’ does not name a type
+   44 |     virtual uint32_t get_plugin_version() const = 0;
+      |             ^~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:1:1: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  +++ |+#include <cstdint>
+    1 | // Copyright (C) 2016-2021 Bayerische Motoren Werke Aktiengesellschaft (BMW AG)
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:46:13: error: ‘plugin_type_e’ does not name a type
+   46 |     virtual plugin_type_e get_plugin_type() const = 0;
+      |             ^~~~~~~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:56:43: error: ‘uint32_t’ has not been declared [-Wtemplate-body]
+   56 |     plugin_impl(const std::string &_name, uint32_t _version,
+      |                                           ^~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:56:43: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:57:17: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’? [-Wtemplate-body]
+   57 |                 plugin_type_e _type) {
+      |                 ^~~~~~~~~~~~~
+      |                 plugin_impl
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:67:5: error: ‘uint32_t’ does not name a type [-Wtemplate-body]
+   67 |     uint32_t get_plugin_version() const {
+      |     ^~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:67:5: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:71:5: error: ‘plugin_type_e’ does not name a type; did you mean ‘plugin_impl’? [-Wtemplate-body]
+   71 |     plugin_type_e get_plugin_type() const {
+      |     ^~~~~~~~~~~~~
+      |     plugin_impl
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:76:5: error: ‘uint32_t’ does not name a type [-Wtemplate-body]
+   76 |     uint32_t version_;
+      |     ^~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:76:5: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:78:5: error: ‘plugin_type_e’ does not name a type; did you mean ‘plugin_impl’? [-Wtemplate-body]
+   78 |     plugin_type_e type_;
+      |     ^~~~~~~~~~~~~
+      |     plugin_impl
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp: In constructor ‘vsomeip_v3::plugin_impl<Plugin_>::plugin_impl(const std::string&, int, int)’:
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:59:9: error: ‘version_’ was not declared in this scope; did you mean ‘_version’? [-Wtemplate-body]
+   59 |         version_ = _version;
+      |         ^~~~~~~~
+      |         _version
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugin.hpp:60:9: error: ‘type_’ was not declared in this scope [-Wtemplate-body]
+   60 |         type_ = _type;
+      |         ^~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/internal/plugin_manager.hpp: At global scope:
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/internal/plugin_manager.hpp:22:63: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’?
+   22 |     VSOMEIP_EXPORT virtual std::shared_ptr<plugin> get_plugin(plugin_type_e _type, const std::string &_name) = 0;
+      |                                                               ^~~~~~~~~~~~~
+      |                                                               plugin_impl
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/internal/plugin_manager.hpp:26:47: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’?
+   26 |     VSOMEIP_EXPORT virtual bool unload_plugin(plugin_type_e _type) = 0;
+      |                                               ^~~~~~~~~~~~~
+      |                                               plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:32:59: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’?
+   32 |         VSOMEIP_EXPORT std::shared_ptr<plugin> get_plugin(plugin_type_e _type,
+      |                                                           ^~~~~~~~~~~~~
+      |                                                           plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:36:46: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’?
+   36 |                 const std::string& _library, plugin_type_e _type,
+      |                                              ^~~~~~~~~~~~~
+      |                                              plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:39:43: error: ‘plugin_type_e’ has not been declared; did you mean ‘plugin_impl’?
+   39 |         VSOMEIP_EXPORT bool unload_plugin(plugin_type_e _type);
+      |                                           ^~~~~~~~~~~~~
+      |                                           plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:51:18: error: ‘plugin_type_e’ was not declared in this scope; did you mean ‘plugin_impl’?
+   51 |         std::map<plugin_type_e, std::map<std::string, std::shared_ptr<plugin> > > plugins_;
+      |                  ^~~~~~~~~~~~~
+      |                  plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:51:81: error: template argument 1 is invalid
+   51 |         std::map<plugin_type_e, std::map<std::string, std::shared_ptr<plugin> > > plugins_;
+      |                                                                                 ^
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:51:81: error: template argument 3 is invalid
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:51:81: error: template argument 4 is invalid
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:52:18: error: ‘plugin_type_e’ was not declared in this scope; did you mean ‘plugin_impl’?
+   52 |         std::map<plugin_type_e, std::map<std::string, void*> > handles_;
+      |                  ^~~~~~~~~~~~~
+      |                  plugin_impl
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:52:62: error: template argument 1 is invalid
+   52 |         std::map<plugin_type_e, std::map<std::string, void*> > handles_;
+      |                                                              ^
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:52:62: error: template argument 3 is invalid
+/home/arctic-alpaca/git/vsomeip/implementation/plugin/src/../include/plugin_manager_impl.hpp:52:62: error: template argument 4 is invalid
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/vsomeip3.dir/build.make:471: CMakeFiles/vsomeip3.dir/implementation/plugin/src/plugin_manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/arctic-alpaca/git/vsomeip/implementation/plugin/src/plugin_manager_impl.cpp:20:
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugins/application_plugin.hpp:19:6: error: elaborated-type-specifier for a scoped enum must not use the ‘class’ keyword [-Werror]
+   19 | enum class application_plugin_state_e : uint8_t {
+      | ~~~~ ^~~~~
+      |      -----
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugins/application_plugin.hpp:19:39: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   19 | enum class application_plugin_state_e : uint8_t {
+      |                                       ^
+      |                                       ::
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugins/application_plugin.hpp:19:12: error: ‘application_plugin_state_e’ has not been declared
+   19 | enum class application_plugin_state_e : uint8_t {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugins/application_plugin.hpp:19:49: error: expected unqualified-id before ‘{’ token
+   19 | enum class application_plugin_state_e : uint8_t {
+      |                                                 ^
+/home/arctic-alpaca/git/vsomeip/interface/vsomeip/plugins/application_plugin.hpp:37:19: error: ‘application_plugin_state_e’ does not name a type; did you mean ‘application_plugin’?
+   37 |             const application_plugin_state_e _app_state) = 0;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   application_plugin
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/vsomeip3.dir/build.make:485: CMakeFiles/vsomeip3.dir/implementation/plugin/src/plugin_manager_impl.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/vsomeip3.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
+```
+  
+</details>
+
+",,,,gcc15,master,,,False
+889,Fix E2E protection checker counter increment,closed,2025-04-15T16:25:57Z,2025-09-16T11:50:43Z,2025-09-15T10:53:49Z,2025-09-15T10:53:49Z,wangdongustc,3369452,15ceb669990c8057ba44db249ec4ee50c299c1ae,,,,,,,"Bug introduced by 826ebb8d352245a36ecaec32b6af61e7abf4696e.
+
+E2E checkers should always update the local counters by the received counters after determining the counter deltas in `verify_counter`.",,,,fix_e2e_profile_04_counter,master,,,False
+884,3.5.6 branch3,closed,2025-04-08T10:23:54Z,2025-04-08T10:44:55Z,2025-04-08T10:44:55Z,2025-04-08T10:44:55Z,duartenfonseca,42354362,e0435155828102fa697494c6999e17b5b32c8e07,,,,,,,,,,,3.5.6_branch3,master,,,False
+883,3.5.6 release commits,closed,2025-04-08T10:01:51Z,2025-04-08T10:19:16Z,2025-04-08T10:19:16Z,2025-04-08T10:19:16Z,duartenfonseca,42354362,b0657ee46b80803faef3403b14a35c861e5931c3,,,,,,,,,,,3.5.6_branch2,master,,,False
+882,3.5.6 release,closed,2025-04-08T09:34:35Z,2025-07-29T02:55:29Z,2025-04-08T09:52:39Z,2025-04-08T09:52:39Z,duartenfonseca,42354362,453d67d8929116a2812ce1193b81f6d57a4658d8,,,,,,,,,,,3.5.6_branch,master,,,False
+880,Replacing deprecated max_connections with max_listen_connections,closed,2025-04-04T15:52:50Z,2025-04-07T11:57:51Z,2025-04-07T11:57:51Z,,kheaactua,2363406,ed67c87544ff46dce52df476fc11ed5258e4ab2e,,,,,,,"This symbol has been deprecated since at least 1.74, and is removed in 1.87.
+
+Replacing it with `max_listen_connections` as recommended here: https://beta.boost.org/doc/libs/1_86_0/doc/html/boost_asio/reference/socket_base.html
+
+Both these symbols are available in [1.66](https://beta.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/socket_base.html) so this shouldn't have an impact on backwards compatibility
+
+## Notes
+[asio::io_context::post](https://beta.boost.org/doc/libs/1_86_0/doc/html/boost_asio/reference/io_context/post.html) was also removed - it was deprecated even in 1.66.  The recommended alternative is [asio::io_context::post(ctx)](https://beta.boost.org/doc/libs/1_86_0/doc/html/boost_asio/reference/post.html) - I'll deal with this in another PR",,,,boost_max_connections,master,,,False
+879,Attempt to allow -fPIC work on GNU compilers for Fedora,closed,2025-04-02T14:11:28Z,2025-08-26T16:03:44Z,2025-08-06T17:49:01Z,,smooge,5026220,,,,,,,,The CMakelists has logic to properly set things for fPIC but then undoes it later in the Make statements. This attempts to move the logic of using -fPIC or -fPIE higher up and removing the area where it overrode itself and caused problems with gcc.,,,,fix_compile,master,,,False
+871,vSomeIP-Lib 3.5.5,closed,2025-03-24T16:55:13Z,2025-03-24T17:03:36Z,2025-03-24T17:03:36Z,2025-03-24T17:03:36Z,duartenfonseca,42354362,cdb1160b908ee35763ae00c530e90ff9cd88cbb3,,,,,,,"Changes:
+
+- Fix build issue on Ubuntu 24.04
+- Fixing change that was introduced on Fix for Find messages commit
+- Changing mandatory configuration files parsing method
+- Testing possible missing break
+- reset force_initial_events
+- Reintroduce VSOMEIP_CONFIG
+- Enable partial valgrind subprocess tracking
+- Ensure endpoint survives send operation
+- Avoid hanging request service commands
+- Fix initial event tests
+- Ensure state value before send_pending_commands
+- Clean-up service info on registration
+- Add and expose settings for SD find debounce as config options
+- Simplify ""Add and expose settings for SD find debounce as config options""
+- Consistently use uid_t/gid_t for credentials
+- Skip valgrind initialevents network test
+- Fix NSM logs with empty Container Id strings
+- Fix issue on STR re registration for local tcp
+- Fix data race due to multiple multicast SD message timeouts
+- Remove leftover routing_info_entry_e
+- Remove patches applied as fix
+- Fix reboot on vnet toggle
+- check client queue_size first
+- Add helgrind dubious locks suppresses
+- Reintroduced server endpoints restart on resume
+- Ensure service offers after route toggling
+- Add a keepalive mechanism to the routing_manager_client
+- fix failures on external_local_routing_test
+- Make local client keep alive mandatory
+- Use variable linger for local TCP
+- fixing vsomeip install without vsomeip_ctrl
+- Fix port format
+- Add vsomeip_device.json to mandatory files
+- Revert Fix NSM logs with empty Container Id strings",,,,3.5.5_RELEASE,master,,,False
+869,3.5.5 Batch,closed,2025-03-18T11:39:37Z,2025-03-24T16:19:08Z,2025-03-24T16:19:08Z,2025-03-24T16:19:08Z,duartenfonseca,42354362,dd25ea14051e383f31c7f8a2418edb476209faeb,,,,,,,,,,,3.5.5_batch,master,,,False
+868,testing QNX,closed,2025-03-18T11:09:37Z,2025-03-18T13:38:53Z,2025-03-18T13:38:53Z,,goncaloalmeida,22196353,e606cc7aa5529574f70428afe52adfcbb8241a4a,,,,,,,,,,,QNX_v2,master,,,False
+864,adapt finding Boost for CMake 3.30+,closed,2025-03-08T01:11:44Z,2025-03-18T09:55:33Z,2025-03-18T09:55:33Z,,M-magdy-M,62015993,0b1b14ea634f33db2691af908250d07e826dd603,,,,,,,"In CMake 3.30+, the built-in ""FindBoost"" module has been deprecated and removed. Previously, calling: find_package(Boost REQUIRED) would use CMake’s built-in logic to locate Boost. 
+But now, CMake expects you to use a package manager (like Conan, vcpkg, or FetchContent) to provide Boost. Because vsomeip still uses the old approach, CMake 3.30+ triggers a warning and fails to find Boost.",,,,patch-1,master,,,False
+863,adapt finding Boost for CMake 3.30+,closed,2025-03-08T00:56:34Z,2025-03-08T01:09:49Z,2025-03-08T01:09:49Z,,M-magdy-M,62015993,6016385650ecf0370bb6177209b21aa6aa258edd,,,,,,,"In CMake 3.30+, the built-in ""FindBoost"" module has been deprecated and removed. Previously, calling: find_package(Boost REQUIRED) would use CMake’s built-in logic to locate Boost. But now, CMake expects you to use a package manager (like Conan, vcpkg, or FetchContent) to provide Boost. Because vsomeip still uses the old approach, CMake 3.30+ triggers a warning and fails to find Boost.",,,,patch-1,master,,,False
+855,New set of commits for 3.5.5,closed,2025-02-27T13:08:06Z,2025-02-27T14:58:16Z,2025-02-27T14:58:16Z,2025-02-27T14:58:16Z,duartenfonseca,42354362,d58421766206ec7fa2084d2fe01841b5b0d8aeb5,,,,,,,,,,,new_prs_3_5_5,master,,,False
+848,Batch of PR's for vsomeip 3.5.5,closed,2025-02-18T17:32:22Z,2025-02-19T18:50:33Z,2025-02-19T18:50:33Z,2025-02-19T18:50:33Z,duartenfonseca,42354362,9abdb5fef3db7cf4a9943c58ed6585a89b8e38ce,,,,,,,,,,,batch_for_3_5_5,master,,,False
+847,Changing mandatory configuration files parsing method,closed,2025-02-18T15:50:08Z,2025-02-18T16:20:39Z,2025-02-18T16:20:39Z,2025-02-18T16:20:39Z,duartenfonseca,42354362,1f4364db98bcdb8431acfb3563f71eccf46040ae,,,,,,,"Summary
+This issue mentions incorrect parsing of the mandatory conf files. if there are files with similar names all would be parsed. this is a fix for it. Details
+An example of erroneous parsing:
+VSOMEIP_MANDATORY_CONFIGURATION_FILES=service.json,common.json then only service.json and common.json should be read and parsed. Currently if there are the following files in the configuration folder: main_service.json
+other_service.json
+service.json
+All are parsed. Changing the comparison method for incoming config files fixes it. 
+Fixes issue https://github.com/COVESA/vsomeip/issues/243",,,,changing_mandatory_path,master,,,False
+844,Fix incorrect microsecond extraction in logging timestamps,closed,2025-02-06T10:02:13Z,2025-04-08T10:46:14Z,2025-04-08T10:46:14Z,2025-04-08T10:46:13Z,yaqian256,83148975,1df6987710999c41e37499af09f31c08a1eb5982,,,,,,,"This PR fixes an issue in the logging module where the microsecond part of the timestamp was calculated incorrectly. Previously, the code used:
+
+```cpp
+auto its_ms = (when_.time_since_epoch().count() / 100) % 1000000;
+```
+However, this approach incorrectly scaled the raw duration count. The correct division factor should have been `1000` (not `100`), or better yet, the calculation can be performed in a type-safe manner using `std::chrono::duration_cast`.
+
+The updated code now correctly extracts the microsecond portion by converting the duration to microseconds.
+
+You can see the difference of the two approaches [here!](https://tio.run/##pVTbattAEH33VwwpBRkaO31VbEMvr2mhpG8Fsd4dW4v3IvYSNZR8uzsraSWZJJDSfRBiNefMmTPH5k1zfeT8fH4nDVdRIGx47ayxu8V0I60PDpme33EfhDRht1jQEzSTpljCnwXQYTFYMLaFLVBRWfaEZekffUBdcWX5qSypoFjeTgDH2orbSGTbBF4FqbHy1A8rbCyvi@Wq@5xAHWq9hut/Ohn1XQn41DTOMl6XcMdMZAqYk6HWGCQHbs0DOi@tWWXIfS093dPgzPuo0UOoWaAHAiFO4NBbFQNBgAo/3tyAYcZ6JCrhR5av8kGSaUfYP3Y1rY0kpW83I@tdIEu05C6TfMgkVGYgsFPi0VZEFbuG6YCSWgbfMTlmjria7LVKVNqTt8Vk9DoBl/A@48nY/3P2G7YzZ3/6pFFEx5IxFWc@wMG6V/2Vg3IaWGs0AgWwgQz2yFn0CDKkMvzdKMnpne1t7J2LhiafzWuw7ee9iOCFmM3Fp7nZu@LlBI4RvPAsxyqGZhBDcYgqy@m7JJ2bDVz9YO18y8XljyLr6wCp0bKEq4SblpZIfpmr2xe472YjQDGPeaYZUvBmjvlCM8fg7Mgxzt8k5UyV8MXqhjnsE93acYs4OCIPUOQ8bge@/OfxXNFnG@oZBdCLiJzCkeg909nu1TjRE6CirLxGeP9M1sQp5OGADsnnvMOJtZ/UYYjOAC3@aXE@/wU ""C++ (gcc) – Try It Online"")
+
+Also updated .gitignore to ignore the `.vs` folder for Visual Studio.",,,,users/yaqian/fix-logging-timestamp,master,,,False
+842,Fixing change that was introduced on Fix for Find messages commit,closed,2025-01-30T16:47:10Z,2025-01-30T17:05:57Z,2025-01-30T17:05:57Z,2025-01-30T17:05:57Z,duartenfonseca,42354362,25bf6ed9d40a111390fc36ee663919b3ec13f730,,,,,,,"The fix for find messages was changing the wrong files, this corrects it for this behaviour:
+- Find messages received with Unicast Flag set to 0 (multicast) shall be answered 
+- with a multicast response.
+Using the same send method as used for cyclic offers to preserve the session id.",,,,fix_find_message_correction,master,,,False
+840,Code Quality: Address shadowing,closed,2025-01-28T13:21:04Z,2025-08-14T15:02:31Z,2025-08-14T15:02:31Z,2025-08-14T15:02:31Z,kheaactua,2363406,b1e7bab5d5efaa6dc8c6763cecbf1ea4febd7306,,,,,,,"- Addresses most shadowing variables
+- Fixes some old style C-casts",,,,shadowing,master,,,False
+837,Release: vSomeIP-Lib 3.5.4,closed,2025-01-17T11:35:23Z,2025-01-17T11:39:23Z,2025-01-17T11:39:23Z,2025-01-17T11:39:23Z,duartenfonseca,42354362,fcb9c249bdd4268ee0e6d0dcc51fbb9a589af168,,,,,,,"Changes:
+- Update documentation
+- Fix possible dangling pointer
+- Add strand to send_cbk call to prevent data races on sockets
+- wireshark_plugin update send command
+- Documentation add some default values
+- Fix Find messages with Unicast Flag set to 0
+- fix max remote subscription limit
+- fix race condition on lazy_load_test
+- Avoid locking while joining multicast group
+- Add precondition to offer_stop_offer
+- Delete twice definition of port_t in primitive_types.hpp
+- Fixing dereference issues
+- Integration of Suspend/Resume related fixes",,,,release_3.5.4,master,,,False
+835,Small modernizations to internal.hpp,closed,2025-01-13T17:08:20Z,2025-05-12T18:25:36Z,2025-05-12T18:25:36Z,2025-05-12T18:25:36Z,kheaactua,2363406,2cf2c35618d4918e28d139bdb3799a2ac2ed3142,,,,,,,"- Use `std::numeric_limits<uid_t>::max()` to ensure consistency with uid/gid
+- Specify `partition_id_t` as a `constexpr`",,,,small_code_updates,master,,,False
+828,Update documentation,closed,2024-12-20T16:59:55Z,2024-12-20T17:19:52Z,2024-12-20T17:19:52Z,2024-12-20T17:19:52Z,duartenfonseca,42354362,5b593b7d0a0c5f51bda0d712b4537e790656817d,,,,,,,"### Summary
+- Cleanup UserGuide
+- New markdown file for the configurations with examples 
+- Run network-tests documentation",,,,update_documentation,master,,,False
+819,Release: vSomeIP-Lib 3.5.3,closed,2024-11-28T16:16:05Z,2024-11-28T16:43:47Z,2024-11-28T16:43:47Z,2024-11-28T16:43:47Z,duartenfonseca,42354362,c7d43e97058904080d277f8b859a2a9cbfe73202,,,,,,,"Changes:
+- Add timeout for detached threads
+- Update wireshark dissector
+- fix race condition on boost async operations
+- Enabled initial event tests
+- Add vsomeip config parsing
+- Whitelist initial events tests
+- Adds on_register_application_ack
+- Suspend resume tests fix
+- add service and method ids to the clients_ array
+- Fix capturing references to stack variables
+- Protects receiver_ and lock to routing stop function
+- Add include unordered map
+- Add remove local in deregistration(rmi)
+- protect deserialization from malicious input
+- Ignore send_cbk if the socket is not connected
+- Move suspend/resume of endpoints
+- Change handling of availabilities for wildcasts
+- Allow to configure the initial routing state
+- Enable subscription expiration
+- Fixed if-guard name
+- Remove redundant ostream manipulators sync update
+- Fix capturing references to stack variables
+- Log offers on first occurrence in routing manager",,,,release_3.5.3,master,,,False
+818,vSomeIP 3.5.3,closed,2024-11-28T11:08:47Z,2024-11-28T11:09:54Z,2024-11-28T11:09:54Z,2024-11-28T11:09:54Z,duartenfonseca,42354362,8b3c5a0632d2895bda9d6a3e74dff77878072e2e,,,,,,,,,,,vsomeip_3.5.3_refactor,master,,,False
+812,Enable subscription expiration,closed,2024-11-19T10:46:30Z,2024-11-29T07:40:47Z,2024-11-29T07:40:47Z,,duartenfonseca,42354362,4109f20d20fe47ecf128144a22f1726b2ea8ca7d,,,,,,,"Summary
+Allow subscriptions to expire when a reboot or ttl timeout is detected Details
+
+set_noned() function created in remote_subscription.cpp added set_noned() at the end of routing_manager_impl::on_remote_subscribe to reset the set_forwarded to allow subscriptions to expire in case of reboot and ttl timeout.",,,,expiration_log,master,,,True
+811,Expiration log,closed,2024-11-19T10:35:34Z,2024-11-19T10:35:44Z,2024-11-19T10:35:40Z,,duartenfonseca,42354362,3fde21efcbbc559e1f0c8932f3c3129d0bd27e62,,,,,,,,,,,expiration_log,master,,,True
+808,Update CMakeLists.txt,closed,2024-11-14T19:56:26Z,2024-11-14T20:15:04Z,2024-11-14T20:15:03Z,,sundeep471,22481907,37c1a0decbb313df724cc3ed5d960a297190dde2,,,,,,,D not treat warnings as errors,,,,nvstar,master,,,False
+802,vSomeIP 3.5.3,closed,2024-11-08T17:11:25Z,2024-11-28T09:52:55Z,2024-11-28T09:52:55Z,2024-11-28T09:52:55Z,duartenfonseca,42354362,c2de98d6fbd604a50c6da0c26df785122d485944,,,,,,,"Revert fix compile issue with pthreads in android commit (https://github.com/COVESA/vsomeip/commit/f55505cd93238ae70edc66003e0d01800f026c27)
+Revert Force abort hanging detached threads commit (https://github.com/COVESA/vsomeip/commit/0ab85df10f7eb15b1530010217eac55f343efef7)
+Remove dead code path
+Add timeout for detached threads
+Update wireshark dissector
+fix race condition on boost async operations
+Enabled initial event tests
+Add vsomeip config parsing
+Whitelist initial events tests
+Adds on_register_application_ack
+Suspend resume tests fix
+add service and method ids to the clients_ array
+Fix capturing references to stack variables
+Protects receiver_ and lock to routing stop function
+Add include unordered map
+Add remove local in deregistration(rmi)
+protect deserialization from malicious input
+Ignore send_cbk if the socket is not connected
+Move suspend/resume of endpoints
+Change handling of availabilities for wildcasts
+Allow to configure the initial routing state
+Enable subscription expiration",3.5.3,,,vsomeip_3.5.3,master,,,False
+793,vSomeIP 3.5.2,closed,2024-10-23T14:38:44Z,2024-11-28T09:53:12Z,2024-11-28T09:53:07Z,,duartenfonseca,42354362,,,,,,,,"Revert fix compile issue with pthreads in android commit (f55505cd93238ae70edc66003e0d01800f026c27)
+Revert Force abort hanging detached threads commit (0ab85df10f7eb15b1530010217eac55f343efef7)
+Remove dead code path",3.5.2,,,vsomeip_3.5.2,master,,,True
+792,Windows tests,closed,2024-10-23T08:20:53Z,2024-10-23T08:21:10Z,2024-10-23T08:21:10Z,,goncaloalmeida,22196353,,,,,,,,,,,,windows_tests,master,,,True
+783,SOME/IP-TP: Rework handling of missing segments,closed,2024-10-15T14:35:15Z,2024-12-04T13:55:12Z,2024-12-04T13:55:08Z,,duartenfonseca,42354362,3ea517f5bbbf19642a48ba717be0bcb1743ed6ce,,,,,,,"The SOME/IP specification requires the segments of a SOME/IP-TP message to be sent in ascending order. Therefore, whenever we receive a start segment (offset=0), we drop all existing data for the very same message.",,,,someip-tp-handle-missing-segments,master,,,True
+780,Wrap options are linker flags,closed,2024-10-10T16:16:14Z,2025-04-08T09:55:20Z,2025-04-08T09:55:20Z,2025-04-08T09:55:20Z,kheaactua,2363406,ef852ef78160d3f7e847454f523f60a242019069,,,,,,,"I required this change to build `libvsomeip3_dlt`.
+
+(building this is implicit on AOSP when issuing `mm` in the vsomeip directory)",3.5.6,,,libvsomeip3_dlt,master,,,False
+779,Ensure deserialize_uid_gid reads both uid and gid,closed,2024-10-09T16:30:48Z,2024-10-09T16:49:25Z,2024-10-09T16:49:21Z,,kheaactua,2363406,f315a17365c2d564a780d77d6fd6024335d1234a,,,,,,,The current setup doesn't move the data pointer and thus reads the UID twice.,,,,deserialization,master,,,False
+777,Fixed if-guard name,closed,2024-10-07T15:50:47Z,2024-11-28T11:10:41Z,2024-11-28T11:10:41Z,2024-11-28T11:10:41Z,kheaactua,2363406,0e5bfbc2cb948e2ffe37848fc8a770035cf462c0,,,,,,,,3.5.3,,,ifguard,master,,,False
+775,Remove redundant ostream manipulators sync update ,closed,2024-10-04T16:34:23Z,2024-11-28T15:34:44Z,2024-11-28T15:34:43Z,2024-11-28T15:34:43Z,duartenfonseca,42354362,e2a10a4a3314c2affee2932d837c03c7cc49ac0b,,,,,,,adding more ostream changes as 0ba13d3e11307cbf4459d3fc8ea13ae82f731a7d ,3.5.3,,,remove_redundant_ostream_sync,master,,,False
+774,Fix capturing references to stack variables,closed,2024-10-03T14:58:34Z,2024-11-28T16:04:46Z,2024-11-28T16:04:46Z,2024-11-28T16:04:46Z,kheaactua,2363406,bc12493a7330bd5ec36190cb240e3f4896be98e5,,,,,,,Capture errors discovered by Aram's team.  I don't have Aram's (@akhzarj ?) contact info so I can't add a `Co-authored-by` tag in the commit,3.5.3,,,fix_captured_references_main,master,,,False
+766,Detailed trace logging when configuration JSON parsing fails,closed,2024-09-13T13:52:05Z,2024-09-16T05:08:02Z,2024-09-16T05:08:02Z,,Vignesh-Murugappan,155717346,caaa6f10fab8a778212ede2b3042e611a98969c8,,,,,,,"**Detailed trace logging when configuration JSON parsing fails**
+
+When the configuration read fails due to a JSON parser error,
+log a detailed trace that includes the configuration file name,
+the failure message, and the line number where the parsing
+error occurred.",,,,master,master,,,False
+763,"When the threshold is set to 1 in the configuration, the initial event sent for client 2 is always multicast rather than unicast.",closed,2024-09-10T07:33:41Z,2025-05-12T18:26:23Z,2025-05-12T18:26:23Z,2025-05-12T18:26:23Z,Vignesh-Murugappan,155717346,a79fae1fa65655cb5b140b85348db358c42ada0b,,,,,,,"When the threshold is set to 1 in the configuration, the initial event sent for client 2 is always multicast rather than unicast.",,,,vm/initial_event/threshold,master,,,False
+762,Fix for Find messages received with Unicast Flag set to 0 (multicast) shall be ignored,closed,2024-09-10T05:23:16Z,2025-01-07T18:01:27Z,2025-01-07T18:01:27Z,2025-01-07T18:01:27Z,SarbeenaS,144411781,555b980e9f56692ace840a80059c1a9d9b08439a,,,,,,,Fix for Find messages received with Unicast Flag set to 0 (multicast) shall be answered with a multicast response,3.5.4,,,service_Discovery_Mod,master,,,False
+756,Test commit to get a verbose build,closed,2024-08-16T16:33:59Z,2024-08-19T12:54:40Z,2024-08-19T12:54:40Z,,kheaactua,2363406,64005b9a823c130f463e2b493f0bd559bfc5f27f,,,,,,,Test PR to get a verbose build of the windows CI,,,,test/verbose_build,master,,,True
+752,Updating Hello World example CMakeLists,closed,2024-08-12T10:41:44Z,2024-08-22T13:46:10Z,2024-08-22T13:46:10Z,2024-08-22T13:46:10Z,duartenfonseca,42354362,48bc6b8e439371b45bbcfbd5ec94b2e0c37bc2a8,,,,,,,"### Summary
+Updated the CMakeLists for the use of target_compile_features function and did a small refactor to avoid duplicate code.
+
+### Details
+Suggested from a COVESA comment ([link](https://github.com/COVESA/vsomeip/pull/733#discussion_r1707188114)),
+tried to update the setting of c++17 flag.
+To use target_compile_features it would lead to more duplicate code.
+Instead, two functions were created to reduce that. There is no impact on the code in itself.
+
+### Issue
+None",,,,update_cmakelists_helloworld,master,,,False
+751,network_tests: Include iomanip system header,closed,2024-08-09T20:56:12Z,2024-08-13T08:06:20Z,2024-08-12T08:30:12Z,,kraj,465279,28abe0c04f80835d6b384006eae4919a5243b694,,,,,,,Latest gcc-14/clang-18 needs this header for setfill and setw,,,,iomanip,master,,,False
+749,testing,closed,2024-08-08T10:53:45Z,2024-08-08T10:53:58Z,2024-08-08T10:53:58Z,,duartenfonseca,42354362,05d652202e2a1a2d26c6c1ecee2d3bd0b6e82f54,,,,,,,,,,,test,master,,,True
+740,main_phase_timer should be stopped along with SD,closed,2024-07-12T14:36:24Z,2024-09-11T13:50:19Z,2024-09-11T13:50:19Z,2024-09-11T13:50:19Z,kheaactua,2363406,fd7758c6e5823cdc64712b3b88a04c94d6fd0f0e,,,,,,,"If `main_phase_timer` isn't stopped, it might prevent `routingmanagerd` from quitting gracefully. Thread will be blocked on `join()`.
+
+This is a followup on https://github.com/COVESA/vsomeip/pull/559.  The issue is a sporative (through rare) `SIGTERM` on exit from `routingmanagerd`.
+
+The key signature of the crash appears to be:
+```
+#34 vsomeip_v3::routing_manager_impl::expire_subscriptions (this=0x1962493058, _force=false) at implementation/routing/src/routing_manager_impl.cpp:3307 #35 0x0000004ec2948f2c in vsomeip_v3::sd::service_discovery_impl::expire_subscriptions (_error=..., this=0x19624985c8) at implementation/service_discovery/src/service_discovery_impl.cpp:2828
+```
+
+That PR inverted the ownership structure in SD (better explained by @vvcarvalho [here](https://github.com/COVESA/vsomeip/pull/559#issuecomment-1805461783).)  This change however calls a stop on `main_phase_timer` during shutdown.",,,,rm_stuck_on_join,master,,,False
+739,fix: debounce_timeout compare different iterators,closed,2024-07-12T11:34:18Z,2024-08-09T10:11:26Z,2024-08-09T10:11:26Z,,wennmbj,118190520,f1fa5eaefa19862641cd4d2e8f3373366845ca55,,,,,,,"Function get_subscriber() returns a copy of the set (not a reference). A new copy is returned on every call. Therefore, the comparison happens between iterators of two different copies of the set - which will never be equal. Generally the get_subscriber should be refactored to return a reference instead of copy.",,,,hotfix/comparison-copy-fix,master,,,False
+734,Modernize CMake code,closed,2024-06-28T15:33:20Z,2025-07-17T13:48:00Z,2025-07-17T13:47:59Z,2025-07-17T13:47:59Z,kheaactua,2363406,39f6770b2b396144c0679d5c5949b86f717c1960,,,,,,,"# Description
+
+## General CMakeLists improvements - cmake v2→v3
+
+- Included a `.cmake-format` file, and ran applied it to the main `CMakeList` files in this project.
+  - The format file does a poor job on `if` and `foreach` blocks, but I believe overall it does a better job that the default settings.  The main benefit is a consistent format
+- Use targets instead of lib/include variables in CMake
+- [Conditionally] Linking DLT as a target
+- Write `internal.hpp` to build directory instead of source to prevent needless rebuilds
+  - The include directives for this file are also updated in the code to use include paths rather than relative paths.
+- Remove hard coded `CMAKE_VERBOSE_MAKEFILE`, this should be injected by the user if so desired
+- ""wrap""ing (ld's `--wrap` option) the ""socket"" symbol, see `wrappers.cpp`
+- Added install directive to `vsomeip/example/hello_world` and `vsomeip_ctrl`
+- Platform conditional socket lib linkage
+- hello_world code uses `ENABLE_SIGNALS`, but its setting was missing in CMake
+- Improve setup for boost stacktrace, really only helps on Linux and requires the `backtrace.h` file
+- Added QNX platform section, though the credential code changes for QNX are not included in this commit.
+- Use a CACHE variable for `VSOMEIP_BASE_PATH`.  Upstream defaults this to `/var` for QNX which is a very bad choice.
+
+## Misc
+- Added more ignore rules to for common IDEs",,,,modern_cmake,master,,,False
+733,vSomeIP 3.5.1,closed,2024-06-27T11:07:34Z,2024-10-07T11:04:16Z,2024-10-03T18:02:20Z,2024-10-03T18:02:20Z,fcmonteiro,129758664,0b83e24d16e1611958194e9b727136522f46556b,,,,,,,"- Load Policies Lazy Load
+- Test - Processing SD messages with unknown type option
+- ensure endpoints before deletion
+- Improve ""end of file"" error handling
+- Enable debouncing of events & selective events
+- Revert ""Test - Processing SD messages with unknown type""
+- Logs added to points of failure on registration process
+- One *.json to ignorem all
+- Someip-tp remote address rework
+- Fix crash in multicast_receive receive_cb
+- Generate network_test configs directly to build
+- Fix deadlock if binding of TCP client endpoint fails
+- Added missing includes of iomanip to support compilation on Mint
+- Cache not yet registered events
+- Return true to make sure endpoints are deleted
+- Byteorder implementation
+- Reorder of prepare_stop method
+- Allows applications in the same process using different security configurations
+- Fix to not ignore stop offers when sd acceptance is not required
+- Release 3.5.0
+=====================
+
+- Restructure Network Tests CMakeLists
+- policy.cpp unit test
+- Remove deprecated usage of byteorder and use bithelper
+- unblock endpoint when closing it
+- Find_Debounce_Time made configurable
+- Check if configuration_ pointer exists before using
+- Initialize routing_state_
+- Solved data race in configuration_impl class
+- utility.cpp unit tests
+- unit tests payload_impl
+- unit tests serializer
+- unit tests deserializer
+- Unit Tests for policy_manager_impl.cpp
+- Unit Test - Routing Manager set_routing_state
+- Move documentation to markdown
+- clang-format to verify the code vsomeip-lib
+- fix deadlock with event and message debounce feature
+- disabled some groups of tests
+- Try to force connection reset on suspend
+- Call availability handler on request service instance
+- Handle endpoint queue size underflow
+- Add Valgrind massif tool
+- Create new train after scheduling to avoid duplicate messages
+- Re-Added offer_tests group in all sanitizers tests
+- removed extra DLT logs of the policies print
+- COVESA-615: vsomeip.lck file not removed upon application termination
+- COVESA-527: Locally switch off -Wstringop-overflow
+- Create network regression test for specific issue
+- Change IndentPPDirectives rule in clang-format
+- applied auto in some identified lines by sonarqube
+- Add Valgrind memcheck
+- Ensure buffer is valid before de-referencing pointer
+- Renaming folder test and fixing typos
+- Fix minor formatting issues from some commits
+- Adds interger overflow check
+- Adds application name on cout logs
+- Adding helgrind, to test output
+- Boost 1.65 cleanup
+- network_test - Offer Stop Offer test
+- Support host name (env) for internal TCP communication
+- Remove cached configuration after app stops
+- Optimize tests/network-tests/CMakeLists.txt
+- Check if pointer exists before dereferencing it
+- avoid requiring valgrind locally
+- Fix Lock-Order-Inversion in policy_manager_impl
+- Revert ""Fix to not ignore stop offers when sd acceptance is not required""
+- Fix timeout on offer_stop_offer test
+- Restore config_plugin_impl mutex
+- Rework [STOP_]OFFER command handling
+- some-tp memory consumption increasing fast
+- Remove dlt traces from memory_test
+- restart_routing_test enabled
+- Fix cyclic events
+- Tracing LOI
+- improve connection log on error path
+- added subscribe_notify groups to non-leak verification
+- Relocate hostname config command
+- allow subscribeACK if at least one offer was sent by SD
+- Improve ""end of file"" error handling
+- Update Clang-Format to Version 18
+- Debounce tests fix
+- Wireshark dissector for vsomeip protocol
+- Remove logging on operation cancel in connect_cbk
+- Add additional info on failure to open TCP port
+- Implementation of SOMEIPSD_00577
+- Refactor how niceness values are applied to threads
+- prevent race between event expiration/forwarding
+- Fix subscribe_notify_one tests
+- Fix missing/blocked subscription requests
+- change references to C++14 into C++17
+- Explicitly check whether an endpoint is in use
+- Enabled all network tests with whitelist
+- Fix target client id in local_send
+- remove redundants package import definitions
+- run unit tests on windows
+- Fix debounce network tests
+- type upgrade and temporary disable of test for QNX build
+- Force abort hanging detached threads
+- Application tests fix
+- Remove behavior from catch block in ~message
+- Stop/Start (network) endpoints on suspend/resume
+- Reduce the number of copy operations on event payloads
+- Sets linger to 0 in local tcp clients
+- Prevent exception re-throw in ~message
+- remove linger on local_tcp
+- Fix android traces build
+- Introduce stateful availability handler
+- Update the availability state
+- Reintroduces the TIME_WAIT for ltcei
+- Faster handlers lookup
+- Increase app registration timeout
+- Force endpoint restart if re registering
+- fix semaphore logs
+- fix compile issue with pthreads in android
+- Disabling set routing state unit test
+- Fixing get_policy_manager error with security disabled",,,,vsomeip_3.5.x,master,,,False
+731,vSomeIP 3.5.0,closed,2024-06-26T10:35:39Z,2024-07-29T12:14:31Z,2024-07-29T12:14:31Z,,fcmonteiro,129758664,a6f9acd6fc7dc9f65eb89796ff68f2b16fa77159,,,,,,,"- Load Policies Lazy Load
+- Test - Processing SD messages with unknown type option
+- ensure endpoints before deletion
+- Improve ""end of file"" error handling
+- Enable debouncing of events & selective events
+- Revert ""Test - Processing SD messages with unknown type""
+- Logs added to points of failure on registration process
+- One *.json to ignorem all
+- Someip-tp remote address rework
+- Fix crash in multicast_receive receive_cb
+- Generate network_test configs directly to build
+- Fix deadlock if binding of TCP client endpoint fails
+- Added missing includes of iomanip to support compilation on Mint
+- Cache not yet registered events
+- Return true to make sure endpoints are deleted
+- Byteorder implementation
+- Reorder of prepare_stop method
+- Allows applications in the same process using different security configurations
+- Fix to not ignore stop offers when sd acceptance is not required",,,,vsomeip_3.5.0,master,,,False
+729,Fix Android log definition typos,closed,2024-06-25T12:03:36Z,2024-08-22T08:46:26Z,2024-08-22T08:46:26Z,2024-08-22T08:46:26Z,falk-haleytek,173133167,0c0815a81d5a878d645fdf0e07d1f856e1fbeb6f,,,,,,,"The definitions for Android log macros LOG<X> were all guarded by LOGE, likely due to a copy-paste oversight when the macros were introduced in vsomeip 3.3.0.",,,,fix-log-definition-typos,master,,,False
+728,Log offers on first occurrence in routing manager,closed,2024-06-25T12:01:16Z,2024-11-28T16:05:22Z,2024-11-28T16:05:22Z,2024-11-28T16:05:22Z,falk-haleytek,173133167,28223e21eea60c5cd92dfb6dc6b11fe727d6711f,,,,,,,"For debugging purposes, the routing manager has been updated to log the first time a new service is detected to be offered.",3.5.3,,,log-offers-in-router,master,,,False
+727,Fix trace logging truncation,closed,2024-06-25T11:56:10Z,2024-07-31T09:21:00Z,2024-07-31T09:21:00Z,2024-07-31T09:21:00Z,falk-haleytek,173133167,5b4d2a64f11e23240728a7722dc6ac37a07b0752,,,,,,,"Tracing configuration supports using the value 'header-only' for filter type. When using 'header-only', only the SOME/IP header will be included in the trace message, not the payload.
+
+This commit fixes an issue where the input parameter '_data_size' was overritten with VSOMEIP_FULL_HEADER_SIZE instead of the local variable 'its_data_size'. The variable 'its_data_size' is used in the loop that prints the bytes of the SOME/IP message.
+
+The documentation has also been updated to reflect the 'header-only' value and it has been clarified that this value is also implies being a 'positive' filter.",,,,fix-trace-logging-data-size,master,,,False
+723,Windows version removing complex data types for API consumption.,closed,2024-06-14T15:38:39Z,2024-10-08T08:35:52Z,2024-10-08T08:35:52Z,,justinlhudson,5749010,d0f910d6d9cc61d1d4a29f05154bfa1bd6faad3c,,,,,,,Tightly coupled complex data type memory is corrupted in windows.  Functions created to for lightly coupled standard data types solved memory corruption. Suggestion is at API level to use none complex data types for easier import into other languages/applications. ,,,,master,master,,,False
+717,Add and expose settings for SD find debounce as config options,closed,2024-06-05T12:44:11Z,2024-09-18T10:28:18Z,2024-09-18T10:28:18Z,,tommyhaley,156649798,989af6e240a80c72371999a9161576f1c98d5d49,,,,,,,"In this change a configurable initial debounce
+interval for SD find as well as a configurable
+number of initial debounces are introduced. This
+implies that services requested in the initial
+debounce phase will at most wait for an initial
+debounce interval before being included in a SD
+find debounce. After the initial debounce phase is completed, all subsequent SD find debounces will
+use the default debounce interval.
+
+Added and exposed options:
+* find_initial_debounce_reps
+* find_initial_debounce_time
+
+Exposed option:
+* find_debounce_time",,,,expose_sd_find_debounce_options_3.1,maintain/3.1,,,False
+716,Add and expose settings for SD find debounce as config options,closed,2024-06-05T12:03:10Z,2025-02-19T18:59:30Z,2025-02-19T18:59:30Z,2025-02-19T18:59:30Z,tommyhaley,156649798,55f295588443a8146d80c32b240a283e00d0510f,,,,,,,"In this change a configurable initial debounce
+interval for SD find as well as a configurable
+number of initial debounces are introduced. This
+implies that services requested in the initial
+debounce phase will at most wait for an initial
+debounce interval before being included in a SD
+find debounce. After the initial debounce phase is completed, all subsequent SD find debounces will
+use the default debounce interval.
+
+Added and exposed options:
+* find_initial_debounce_reps
+* find_initial_debounce_time
+
+Exposed option:
+* find_debounce_time",3.5.5,,,expose_sd_find_debounce_options,master,,,False
+710,Control SD sync/async behaviour with env var on QNX,closed,2024-05-27T19:48:36Z,2025-01-28T13:38:26Z,2025-01-28T13:38:26Z,,kheaactua,2363406,,,,,,,,"# Target was 3.4.10
+
+## Description
+
+This is a change intended for systems like QNX which do not generally have a service like netlink monitoring the network status that can easily be tied into.  This is not setup to be used/enabled on Linux/Android.
+
+This allows us to launch and use a routing manager with local UDS communication before remote networking is available which simplifies our startup graph and saves time during startup.  This is in contrast to the current version where SD will fail to load if networking is not available at process start - leaving the routing manager in an error state.
+
+I have been using this change for 1-2 years now and it has been very beneficial.  
+
+## Usage
+
+This behaviour can be enabled by exporting the following environment variables:
+```sh
+# Env var that if exists will cause SD setup to be performed asynchronously and
+# wait on network availability.  This wait also impacts the routing_manager to
+# also wait until a network interface is available before issuring OFFERs
+export VSOMEIP_USE_ASYNCHRONOUS_SD
+
+# Iff SD is running synchronously, the existence of this env var will cause the
+# SD setup to still block on network availability. (mostly a testing scenario)
+export VSOMEIP_WAIT_FOR_INTERFACE
+
+# The current waiting mechanism is to block until a file (specified by this
+# define)
+export VSOMEIP_NETWORK_INT_READY_FILE=<file path of file created when network available>
+```
+
+This is implemented by modifying the signature of `service_discovery::start()` in order to accept a callback send from `routing_manager_impl`.
+
+## Notes:
+- mutexes
+  - `sd_impl::endpoint_` is now mutex protected
+  - `rm_impl::pending_sd_offers_mutex_` is a recursive mutex, as now it can be called in its own thread and the new thread in SD
+- There is no timeout on the `waitfor`.  The original implementation had a configurable timeout, however because timing out left us in an error state anyways, this timeout was removed (raised to `numeric_limits<int>::max()` = ~45 days, give or take.)",,,,async_sd,master,,,True
+707,Fix documentation for `unregister_availability_handler`,closed,2024-05-21T06:44:25Z,2024-09-02T14:36:45Z,2024-09-02T14:36:45Z,2024-09-02T14:36:45Z,Ax9DTW,146847554,637fb6ccce969f89621660dd481badb29a90d661,,,,,,,unregister method doesn't take a handler,,,,master,master,,,False
+705,Debounce Filter through json config working only for Field not for event https://github.com/COVESA/vsomeip/issues/704,closed,2024-05-16T07:27:40Z,2025-02-26T14:57:35Z,2025-02-26T14:57:35Z,,Vignesh-Murugappan,155717346,e6eed9a70dcfd4360d880f9f002859d2ab32fb69,,,,,,,"Debounce Filter through json config working only for Field not for event [BUG #704](https://github.com/COVESA/vsomeip/issues/704)
+
+",,,,vm/debounce,master,,,False
+703,fix An incorrect filename causes a runtime failure #652,closed,2024-05-15T13:54:08Z,2024-05-25T02:46:24Z,2024-05-25T02:46:23Z,,007herelsp,24457857,4deebbb72f3c770630463e6ab2298d0403a766c9,,,,,,,,,,,fix_#652,master,,,False
+699,Run Unit and BenchMark tests,closed,2024-05-10T13:49:22Z,2024-05-16T12:12:25Z,2024-05-16T12:12:25Z,2024-05-16T12:12:25Z,RicardoRoldaoCTW,169149392,6c0e9db200fbcfd37879c4b2ff0c8523a29d8eb5,,,,,,,- Run Unit tests and BenchMark tests on Linux.,,,,master,master,,,False
+698,Fix possible dangling pointer,closed,2024-05-09T12:34:50Z,2025-01-07T16:34:54Z,2025-01-07T16:34:54Z,2025-01-07T16:34:53Z,StalinCCCP,62281472,1656f2a308d4773fd14fd1ff2613d272b49367d5,,,,,,,"This PR is related to https://github.com/COVESA/vsomeip/issues/695#issue-2282414325
+
+Considering std::bind would make T&& a T(rvalue to lvalue), and that copying shared_pointer will automatically add a reference count and hold its ownership, I changed the first parameter of accept_cbk() from const connection::ptr& to connection::ptr. This change guarantees no dangling pointer would be possible.",3.5.4,,,hotfix,master,,,False
+696,Fix netlink_connector bit shift in netmask ipv6,closed,2024-05-07T11:39:11Z,2024-05-15T16:18:48Z,2024-05-15T16:18:48Z,2024-05-15T16:18:48Z,wennmbj,118190520,7bd8690173d8c45d17598ebccc8472322b1451c7,,,,,,,Shifting more than 31 bit was possible which may lead to undefined behaviour,,,,hotfix/fix-netmask-shift,master,,,False
+694,"When testing a cycle event, calling application_impl::stop_offer_event is invalid. #666",closed,2024-05-07T02:49:20Z,2025-08-19T14:42:50Z,2025-08-19T14:42:49Z,,hjkcst,86393732,6c168262116ac951e6c2c959ee9e5b3c7309ef07,,,,,,,"When testing a cycle event, calling application_impl::stop_offer_event is invalid. #666
+
+See bug#666 for details of the issue.",,,,master,master,,,False
+689,unset is_sending_ during tce restart,closed,2024-05-04T00:02:05Z,2025-06-16T16:24:42Z,2025-06-16T16:24:42Z,,joeyoravec,9018512,f91a2dea85921713ec56e135dcafdd719450db78,,,,,,,"fixes #668 
+
+During `tcp_client_endpoint_impl::restart()` the `queue_` will be drained, messages printed like
+
+```
+tce::restart: dropping message: remote:10.6.0.3:30510 (30fd): [0402.0001.018e] size: 23
+```
+
+and if `is_sending_` was set nothing will unset. Later in `connect_cbk()`:
+
+```
+auto its_entry = get_front();
+if (its_entry.first) {
+    is_sending_ = true;
+    strand_.dispatch(std::bind(&client_endpoint_impl::send_queued,
+            this->shared_from_this(), its_entry));
+    VSOMEIP_WARNING << __func__ << "": resume sending to: ""
+            << get_remote_information();
+}
+```
+there's nothing queued, no reason to call `send_queued`, therefore no callback is going to clear the flag. Flag `is_sending_` remains set ""forever"" and the train logic remains blocked from sending. From a user perspective the client endpoint would receive notifications but never transmit anything again.
+
+This needs to be cleared during `restart()` when `queue_` gets drained",,,,topic/v3.4.10-fix-tce-is_sending,master,,,True
+685,Fix event group entry for dynamic instances,closed,2024-04-27T07:18:36Z,2024-09-06T10:44:07Z,2024-09-06T10:44:07Z,,wennmbj,118190520,d8b1a5e650e57f5146fd438fb1642f495615aed2,,,,,,,"In case of dynamic instances the event registration on the routing node is not correct so that a remote client is not able to subscribe to the event
+
+This fixes the issue: https://github.com/COVESA/vsomeip/issues/684",,,,fix/fix-dynamic-instance-eventgroup,master,,,False
+671,improve vsomeip sluggish connect (maintain 3.1.x branch),closed,2024-04-10T20:41:18Z,2025-02-25T10:57:47Z,2025-02-25T10:57:47Z,,joeyoravec,9018512,f8c82bccbfcafff19d4f33c152789227686b090c,,,,,,,"fixes COVESA/vsomeip#669
+
+As described in issue https://github.com/COVESA/vsomeip/issues/669 the train logic should aggregate Service Discovery, but does not currently. This leads to very low performance on systems offering 1000s of EventGroups.
+
+This PR has similar content to #670 but backported to 3.1.20.3 and containing one additional important fix for that older version. I'm leaving this PR in draft status to gather feedback. The key difference when backporting is:
+
+# Ensure departure timer does not go negative
+
+There is a calculation 3.1.20 in `implementation/endpoints/include/buffer.hpp` that results in a negative number in case the timer is already expired:
+```
+void update_departure_time_and_stop_departure() {
+    departure_ = departure_timer_->expires_from_now();
+```
+We need to implement a `floor()` so the departure is either in the future, or zero meaning ready to depart, but never negative. Like:
+```
+departure_ = departure_timer_->expires_from_now();
+if (departure_.count() < 0) {
+    departure_ = std::chrono::nanoseconds::zero();
+}
+```
+In case the value goes negative then other calculations fail. That large negative number is kept and used for the next calculated departure time, breaking that one too.",,,,topic/v3.1.20.3-fix-sluggish,maintain/3.1,,,True
+661,fix dynamic_pointer_cast error,closed,2024-03-28T14:11:44Z,2024-05-25T02:46:24Z,2024-05-25T02:46:24Z,,007herelsp,24457857,be2f28656fa7313c6232049681bd588cc1084b59,,,,,,,"dynamic_pointer_cast this issue where some objects return nullptr Created outside of the boundaries of the shared library.
+See below discuss for more details.
+https://github.com/android/ndk/issues/519
+https://github.com/android/ndk/issues/533",,,,fix_dynamic_pointer_cast_error,master,,,False
+660,changes for yocto build,closed,2024-03-28T08:51:43Z,2024-03-28T08:52:57Z,2024-03-28T08:52:54Z,,mehmettozbek,90189279,,,,,,,,,,,,cm4,master,,,False
+655,Initialize the routing running state,closed,2024-03-19T14:12:57Z,2024-07-29T12:15:58Z,2024-07-29T12:15:58Z,,kheaactua,2363406,843ebbf38dc46f4591dba5a3b26650a07b658c27,,,,,,,"The routing manager running state appears uninitialised, which can (and has) resulting in routingmanagerd starting up in a suspend state.",,,,initialize_routing_state,master,,,False
+654,Fix Multi-Routing-Managers in one Process (#603),closed,2024-03-18T09:24:09Z,2024-11-28T16:05:57Z,2024-11-28T16:05:57Z,2024-11-28T16:05:57Z,akhzarj,79518064,bbd29db2f5e45991dcda60047abd9b1d05a1bed3,,,,,,,"Author: Aram Khzarjyan <Aram.Khzarjyan@mercedes-benz.com>, MBition GmbH.
+
+ Fix Multi-Routing-Managers in one Process (#603) #654 
+---
+Removing statics (singletons) enables to run
+multiple routing Managers in one process.
+
+---
+The program was tested solely for our own use cases, which might differ from yours.
+
+The submission is provided under the main project license (LICENSE file in root of project).
+
+[Provider Information](https://github.com/mercedes-benz/foss/blob/master/PROVIDER_INFORMATION.md)",3.5.3,,,Fix_MRM_SD,master,,,False
+653,Initialize Routing-Manager State. ,closed,2024-03-18T09:19:01Z,2024-07-29T12:15:52Z,2024-07-29T12:15:52Z,,akhzarj,79518064,12a615c3d5ea2be713de8442d044e2f252cd181b,,,,,,,"Author: Aram Khzarjyan <Aram.Khzarjyan@mercedes-benz.com>, MBition GmbH.
+
+ Initialize Routing-Manager State. #653 
+---
+To avoid undefined behavior the state have to be initialized.
+
+---
+The program was tested solely for our own use cases, which might differ from yours.
+
+The submission is provided under the main project license (LICENSE file in root of project).
+
+[Provider Information](https://github.com/mercedes-benz/foss/blob/master/PROVIDER_INFORMATION.md)",,,,Fix_Ssp_RM,master,,,False
+651,Remove clear_multicast_endpoints() in unsubscribe.,closed,2024-03-16T14:07:30Z,2025-02-25T16:14:05Z,2025-02-25T16:14:05Z,,akhzarj,79518064,68f539ffdf9501467e707f2ea46bd16270d40ca7,,,,,,,"Author: Aram Khzarjyan <Aram.Khzarjyan@mercedes-benz.com>, MBition GmbH.
+
+ Remove clear_multicast_endpoints() in unsubscribe. #651 
+---
+The clearing multicast endpoints stops any multicast messages
+receiving without recovering if TTLs are not expiring.
+
+
+---
+The program was tested solely for our own use cases, which might differ from yours.
+
+The submission is provided under the main project license (LICENSE file in root of project).
+
+[Provider Information](https://github.com/mercedes-benz/foss/blob/master/PROVIDER_INFORMATION.md)",,,,Fix_MC_UNSB_RM,master,,,False
+650,"fix compiler error: ""_FORTIFY_SOURCE"" redefined",closed,2024-03-13T12:08:00Z,2024-03-22T11:44:15Z,2024-03-22T11:44:15Z,2024-03-22T11:44:15Z,brenkem,42147442,38f9c54ce95867212c60344708eff8933ce790cd,,,,,,,"Request to fix compiler error because new compilers (gcc >= 7.5.0-3ubuntu1~18.04) seems to define the macro _FORTIFY_SOURCE by default and creates a conflict with the macro definition from the project.
+
+Details can be found in the issue [here].
+
+[here]:
+https://github.com/COVESA/vsomeip/issues/645",,,,master,master,,,False
+644,Solve the e2e source code path problem,closed,2024-03-06T05:02:29Z,2025-05-27T03:45:10Z,2025-05-27T03:45:10Z,,daiyinger,10258099,52ec66f9ed57d6dceaa4bf7e6391b17855a1e013,,,,,,,Solve the problem of Android platform e2e source code path,,,,master,master,,,False
+635,Delete twice definition of port_t in primitive_types.hpp (#624),closed,2024-02-19T19:18:10Z,2025-01-09T16:29:12Z,2025-01-09T16:29:12Z,2025-01-09T16:29:12Z,reymor,39070043,d8eaf8c8a61602dcba437458fe584ad25f9d59f2,,,,,,,,3.5.4,,,master,master,,,False
+634,Delete twice definition of port_t in primitive_types.hpp (#624),closed,2024-02-19T18:59:11Z,2024-02-19T19:02:15Z,2024-02-19T19:02:15Z,,reymor,39070043,814af54935a63220f44e491346816e474fcc9491,,,,,,,,,,,master,master,,,False
+618,Disables blank issue.,closed,2024-01-25T09:24:15Z,2024-01-25T10:06:32Z,2024-01-25T10:06:32Z,2024-01-25T10:06:32Z,RuiG19,36234365,55284c518f805a2e0194e23770f7c0f2b352ed64,,,,,,,"Disables blank issue.
+Adds boost version to issue template",,,,issue_template,master,,,False
+613,Adds issue template to github,closed,2024-01-23T09:22:41Z,2024-01-25T09:23:21Z,2024-01-23T10:19:39Z,2024-01-23T10:19:39Z,RuiG19,36234365,47dc5f42a5bfa98638ba8026a57aa2b829000e60,,,,,,,"Adds issue template to vsomeip covesa github.
+",,,,issue_template,master,,,False
+611,Enable unit tes,closed,2024-01-14T14:50:26Z,2024-01-14T14:50:58Z,2024-01-14T14:50:34Z,,code-ssp,17043506,24264a91ea58b6874b506634df4bd0a2a895788a,,,,,,,,,,,feature/unit-test,master,,,False
+608,Fix session id issues in someip sd with ipv6,closed,2024-01-10T07:02:43Z,2025-01-07T13:01:13Z,2025-01-07T13:01:12Z,,wennmbj,118190520,,,,,,,,"1. In case ipv6 is used with local link addresses a second session counter is created for the ACK in someip sd. The  second counter is created with target address and the network device. Due to two counters for someip sd the receiving ECU will detect false reboots. This fixed the issue described in: https://github.com/COVESA/vsomeip/issues/605 
+
+2. In case of a reliable tcp connection with ipv6 and local link addresses the device in the connection object caused a mismatch in the connection assignment. This fixed the issue described in: https://github.com/COVESA/vsomeip/issues/673
+
+If more details are needed, feel free to contact me.",,,,master,master,,,False

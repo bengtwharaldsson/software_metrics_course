@@ -1,0 +1,47 @@
+# Pick where to fetch defect data
+
+defect_data_sources:
+  webkit:
+    url: https://bugs.webkit.org
+    product: WebKit
+  gcc:
+    url: https://gcc.gnu.org/bugzilla
+    product: gcc
+  firefox:
+    url: https://bugzilla.mozilla.org
+    product: Firefox
+
+# choose by name (preferred) or by index (0-based)
+pick_defect_data_from: gcc
+
+# Set how far back in time to get defect data in days
+get_defect_data_going_back_days: 180
+
+# Set how far in the future to predict defects in days
+predict_defects_going_forward_days: 90
+
+# GitHub repository configuration for PR analysis
+github_pr_analysis:
+  repository: "COVESA/vsomeip"
+  per_page: 100
+
+# PR complexity classification thresholds (based on files changed)
+pr_complexity:
+  simple: 3       # 1-3 files = Simple
+  medium: 10      # 4-10 files = Medium
+  complex: 25     # 11-25 files = Complex
+  # >25 files = Very Complex
+
+# Traffic light indicators for non-bug fraction thresholds
+indicators:
+  non_bug_fraction:
+    green: 0.1    # Below 10% bug work = GREEN (mostly bug fixes)
+    yellow: 0.33  # Between 10-33% bug work = YELLOW (balanced)
+    # Above 33% bug work = RED (too much enhancement work)
+  
+  lead_time_days:
+    green: 4      # 1-4 days = GREEN (fast turnaround)
+    yellow: 30    # 4-30 days = YELLOW (reasonable time)
+    # Above 30 days = RED (too slow)
+
+

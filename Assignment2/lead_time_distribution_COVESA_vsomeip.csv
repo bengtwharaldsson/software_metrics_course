@@ -1,0 +1,62 @@
+id,title,author,created_at,merged_at,lead_time_days
+956,vSomeIP 3.5.8 Release,vvcarvalho-csw,2025-09-16 13:05:28+00:00,2025-10-13 08:39:45+00:00,26
+955,3.5.8 commits,duartenfonseca,2025-09-15 10:50:03+00:00,2025-09-15 10:52:18+00:00,0
+943,vSomeip-Lib 3.5.7,duartenfonseca,2025-08-18 13:35:51+00:00,2025-08-18 13:38:17+00:00,0
+941,3.5.7 batch2,duartenfonseca,2025-08-18 11:42:52+00:00,2025-08-18 13:13:53+00:00,0
+940,fix github actions,duartenfonseca,2025-08-14 16:58:31+00:00,2025-08-19 15:50:34+00:00,4
+939,3.5.7 batch1,duartenfonseca,2025-08-14 16:43:59+00:00,2025-08-14 16:45:21+00:00,0
+933,3.5.7 10cmms,duartenfonseca,2025-07-25 16:25:47+00:00,2025-07-25 16:28:51+00:00,0
+932,3.5.7 3 - commits,duartenfonseca,2025-07-25 14:07:32+00:00,2025-07-25 14:08:38+00:00,0
+930,New prs 3.5.7 2,duartenfonseca,2025-07-17 11:48:09+00:00,2025-07-17 13:27:20+00:00,0
+929,Adding missing flag,duartenfonseca,2025-07-16 15:47:31+00:00,2025-07-16 15:49:01+00:00,0
+927,New prs 3.5.7 part2,duartenfonseca,2025-07-15 16:58:21+00:00,2025-07-16 09:39:01+00:00,0
+926,New prs 3.5.7,duartenfonseca,2025-07-15 13:23:49+00:00,2025-07-15 13:42:44+00:00,0
+924,Rename `IPV3` to `IPV4`,Alioth4J,2025-07-08 13:08:30+00:00,2025-07-25 14:09:59+00:00,17
+923,Update master,duartenfonseca,2025-07-07 13:54:06+00:00,2025-07-07 14:17:19+00:00,0
+915,Release 3.5.6,duartenfonseca,2025-06-26 15:33:20+00:00,2025-06-26 15:50:53+00:00,0
+914,3.5.6 new commits,duartenfonseca,2025-06-17 10:30:44+00:00,2025-06-17 11:08:43+00:00,0
+903,3.5.6 new commits,duartenfonseca,2025-05-22 14:49:28+00:00,2025-05-22 15:29:48+00:00,0
+898,New PRs for 3.5.6,duartenfonseca,2025-05-12 18:04:59+00:00,2025-05-12 18:25:03+00:00,0
+893,3.5.6 new commits,duartenfonseca,2025-04-23 16:20:06+00:00,2025-04-24 16:39:56+00:00,1
+890,Add stdint import for GCC 15,arctic-alpaca,2025-04-17 13:15:24+00:00,2025-07-15 13:44:13+00:00,89
+889,Fix E2E protection checker counter increment,wangdongustc,2025-04-15 16:25:57+00:00,2025-09-15 10:53:49+00:00,152
+884,3.5.6 branch3,duartenfonseca,2025-04-08 10:23:54+00:00,2025-04-08 10:44:55+00:00,0
+883,3.5.6 release commits,duartenfonseca,2025-04-08 10:01:51+00:00,2025-04-08 10:19:16+00:00,0
+882,3.5.6 release,duartenfonseca,2025-04-08 09:34:35+00:00,2025-04-08 09:52:39+00:00,0
+871,vSomeIP-Lib 3.5.5,duartenfonseca,2025-03-24 16:55:13+00:00,2025-03-24 17:03:36+00:00,0
+869,3.5.5 Batch,duartenfonseca,2025-03-18 11:39:37+00:00,2025-03-24 16:19:08+00:00,6
+855,New set of commits for 3.5.5,duartenfonseca,2025-02-27 13:08:06+00:00,2025-02-27 14:58:16+00:00,0
+848,Batch of PR's for vsomeip 3.5.5,duartenfonseca,2025-02-18 17:32:22+00:00,2025-02-19 18:50:33+00:00,1
+847,Changing mandatory configuration files parsing method,duartenfonseca,2025-02-18 15:50:08+00:00,2025-02-18 16:20:39+00:00,0
+844,Fix incorrect microsecond extraction in logging timestamps,yaqian256,2025-02-06 10:02:13+00:00,2025-04-08 10:46:13+00:00,61
+842,Fixing change that was introduced on Fix for Find messages commit,duartenfonseca,2025-01-30 16:47:10+00:00,2025-01-30 17:05:57+00:00,0
+840,Code Quality: Address shadowing,kheaactua,2025-01-28 13:21:04+00:00,2025-08-14 15:02:31+00:00,198
+837,Release: vSomeIP-Lib 3.5.4,duartenfonseca,2025-01-17 11:35:23+00:00,2025-01-17 11:39:23+00:00,0
+835,Small modernizations to internal.hpp,kheaactua,2025-01-13 17:08:20+00:00,2025-05-12 18:25:36+00:00,119
+828,Update documentation,duartenfonseca,2024-12-20 16:59:55+00:00,2024-12-20 17:19:52+00:00,0
+819,Release: vSomeIP-Lib 3.5.3,duartenfonseca,2024-11-28 16:16:05+00:00,2024-11-28 16:43:47+00:00,0
+818,vSomeIP 3.5.3,duartenfonseca,2024-11-28 11:08:47+00:00,2024-11-28 11:09:54+00:00,0
+802,vSomeIP 3.5.3,duartenfonseca,2024-11-08 17:11:25+00:00,2024-11-28 09:52:55+00:00,19
+780,Wrap options are linker flags,kheaactua,2024-10-10 16:16:14+00:00,2025-04-08 09:55:20+00:00,179
+777,Fixed if-guard name,kheaactua,2024-10-07 15:50:47+00:00,2024-11-28 11:10:41+00:00,51
+775,Remove redundant ostream manipulators sync update ,duartenfonseca,2024-10-04 16:34:23+00:00,2024-11-28 15:34:43+00:00,54
+774,Fix capturing references to stack variables,kheaactua,2024-10-03 14:58:34+00:00,2024-11-28 16:04:46+00:00,56
+763,"When the threshold is set to 1 in the configuration, the initial event sent for client 2 is always multicast rather than unicast.",Vignesh-Murugappan,2024-09-10 07:33:41+00:00,2025-05-12 18:26:23+00:00,244
+762,Fix for Find messages received with Unicast Flag set to 0 (multicast) shall be ignored,SarbeenaS,2024-09-10 05:23:16+00:00,2025-01-07 18:01:27+00:00,119
+752,Updating Hello World example CMakeLists,duartenfonseca,2024-08-12 10:41:44+00:00,2024-08-22 13:46:10+00:00,10
+740,main_phase_timer should be stopped along with SD,kheaactua,2024-07-12 14:36:24+00:00,2024-09-11 13:50:19+00:00,60
+734,Modernize CMake code,kheaactua,2024-06-28 15:33:20+00:00,2025-07-17 13:47:59+00:00,383
+733,vSomeIP 3.5.1,fcmonteiro,2024-06-27 11:07:34+00:00,2024-10-03 18:02:20+00:00,98
+729,Fix Android log definition typos,falk-haleytek,2024-06-25 12:03:36+00:00,2024-08-22 08:46:26+00:00,57
+728,Log offers on first occurrence in routing manager,falk-haleytek,2024-06-25 12:01:16+00:00,2024-11-28 16:05:22+00:00,156
+727,Fix trace logging truncation,falk-haleytek,2024-06-25 11:56:10+00:00,2024-07-31 09:21:00+00:00,35
+716,Add and expose settings for SD find debounce as config options,tommyhaley,2024-06-05 12:03:10+00:00,2025-02-19 18:59:30+00:00,259
+707,Fix documentation for `unregister_availability_handler`,Ax9DTW,2024-05-21 06:44:25+00:00,2024-09-02 14:36:45+00:00,104
+699,Run Unit and BenchMark tests,RicardoRoldaoCTW,2024-05-10 13:49:22+00:00,2024-05-16 12:12:25+00:00,5
+698,Fix possible dangling pointer,StalinCCCP,2024-05-09 12:34:50+00:00,2025-01-07 16:34:53+00:00,243
+696,Fix netlink_connector bit shift in netmask ipv6,wennmbj,2024-05-07 11:39:11+00:00,2024-05-15 16:18:48+00:00,8
+654,Fix Multi-Routing-Managers in one Process (#603),akhzarj,2024-03-18 09:24:09+00:00,2024-11-28 16:05:57+00:00,255
+650,"fix compiler error: ""_FORTIFY_SOURCE"" redefined",brenkem,2024-03-13 12:08:00+00:00,2024-03-22 11:44:15+00:00,8
+635,Delete twice definition of port_t in primitive_types.hpp (#624),reymor,2024-02-19 19:18:10+00:00,2025-01-09 16:29:12+00:00,324
+618,Disables blank issue.,RuiG19,2024-01-25 09:24:15+00:00,2024-01-25 10:06:32+00:00,0
+613,Adds issue template to github,RuiG19,2024-01-23 09:22:41+00:00,2024-01-23 10:19:39+00:00,0
