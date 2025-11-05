@@ -1,0 +1,24 @@
+2025-11-03 13:38:22,434;MI_defects;INFO;Configuration started
+2025-11-03 13:41:01,609;matplotlib;DEBUG;matplotlib data path: C:\Users\bhaw5f\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\matplotlib\mpl-data
+2025-11-03 13:41:01,662;matplotlib;DEBUG;CONFIGDIR=C:\Users\bhaw5f\.matplotlib
+2025-11-03 13:41:03,018;matplotlib;DEBUG;interactive is False
+2025-11-03 13:41:03,019;matplotlib;DEBUG;platform is win32
+2025-11-03 13:41:03,885;matplotlib;DEBUG;CACHEDIR=C:\Users\bhaw5f\.matplotlib
+2025-11-03 13:41:03,931;matplotlib.font_manager;DEBUG;Using fontManager instance from C:\Users\bhaw5f\.matplotlib\fontlist-v390.json
+2025-11-03 13:45:06,027;MI_defects;INFO;All modules imported successfully
+2025-11-03 13:45:09,444;MI_defects;INFO;Configuration loaded successfully
+2025-11-03 13:46:07,794;MI_defects;INFO;All modules imported successfully
+2025-11-03 13:52:14,965;urllib3.connectionpool;DEBUG;Starting new HTTPS connection (1): gcc.gnu.org:443
+2025-11-03 13:52:17,222;urllib3.connectionpool;DEBUG;https://gcc.gnu.org:443 "GET /bugzilla/buglist.cgi?product=gcc&query_format=advanced&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=CLOSED&chfield=%5BBug+creation%5D&chfieldfrom=2025-05-07&chfieldto=Now&limit=0&ctype=csv&columnlist=bug_id%2Cproduct%2Ccomponent%2Cassigned_to%2Cbug_status%2Cresolution%2Cseverity%2Cbug_severity%2Copendate%2Cchangeddate&order=bug_id+DESC HTTP/1.1" 200 None
+2025-11-03 13:54:00,960;urllib3.connectionpool;DEBUG;Starting new HTTPS connection (1): gcc.gnu.org:443
+2025-11-03 13:54:02,703;urllib3.connectionpool;DEBUG;https://gcc.gnu.org:443 "GET /bugzilla/buglist.cgi?product=gcc&query_format=advanced&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=CLOSED&chfield=%5BBug+creation%5D&chfieldfrom=2025-05-07&chfieldto=Now&limit=0&ctype=csv&columnlist=bug_id%2Cproduct%2Ccomponent%2Cassigned_to%2Cbug_status%2Cresolution%2Cseverity%2Cbug_severity%2Copendate%2Cchangeddate&order=bug_id+DESC HTTP/1.1" 200 None
+2025-11-03 13:54:04,045;MI_defects;INFO;Raw data download complete
+2025-11-03 14:37:09,971;urllib3.connectionpool;DEBUG;Starting new HTTPS connection (1): gcc.gnu.org:443
+2025-11-03 14:37:11,978;urllib3.connectionpool;DEBUG;https://gcc.gnu.org:443 "GET /bugzilla/buglist.cgi?product=gcc&query_format=advanced&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=CLOSED&chfield=%5BBug+creation%5D&chfieldfrom=2025-05-07&chfieldto=Now&limit=0&ctype=csv&columnlist=bug_id%2Cproduct%2Ccomponent%2Cassigned_to%2Cbug_status%2Cresolution%2Cseverity%2Cbug_severity%2Copendate%2Cchangeddate&order=bug_id+DESC HTTP/1.1" 200 None
+2025-11-03 14:37:13,332;MI_defects;INFO;Raw data saved to file successfully
+2025-11-03 14:37:13,332;MI_defects;INFO;Raw data download complete
+2025-11-03 15:15:06,423;MI_defects;INFO;Total resolved issues OK.
+2025-11-03 15:15:06,424;MI_defects;INFO;Total issues OK.
+2025-11-03 15:15:06,426;MI_defects;INFO;Total resolved non-bugs OK.
+2025-11-03 15:25:06,800;MI_defects;INFO;Resolved issues found for resolution time calculation.
+2025-11-03 15:25:06,807;MI_defects;INFO;Resolution time calculation completed successfully.
